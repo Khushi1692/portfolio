@@ -1,0 +1,36 @@
+.contact{
+    height: 90vh;
+    text-align: center;
+}
+#contact-info{
+    width: 50%;
+    height: 10vh;
+    text-align: center;
+    padding-left: 27%;
+    color: white;
+}
+.social-icons{
+    height: 20vh;
+}
+
+.contact .socials{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+@media only screen and (max-width: 600px) {
+    .contact h3{
+        width: 80%;
+    }
+    .contact .socials{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .contact h3{
+        width: 90%;
+    }
+    .contact .socials{
+        width: 40%;
+    }
+}
